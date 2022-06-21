@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "PORT=3333 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "PORT=3333 nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.4"
+  }
+}
