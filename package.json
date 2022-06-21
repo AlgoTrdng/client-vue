@@ -8,6 +8,12 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.1.1",
     "nuxt": "3.0.0-rc.4"
   }
 }
