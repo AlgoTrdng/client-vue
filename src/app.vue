@@ -1,5 +1,8 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <div>
+  <div class="bg-red-500">
     Hello
   </div>
 </template>

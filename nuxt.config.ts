@@ -2,5 +2,12 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  srcDir: 'src/'
+  srcDir: 'src/',
+  modules: [
+    '@nuxtjs/tailwindcss',
+  ],
+  tailwindcss: {
+    cssPath: '~/src/tailwind.css',
+    configPath: '~/tailwind.config.js'
+  }
 })
